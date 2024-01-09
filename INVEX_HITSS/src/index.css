@@ -1,0 +1,8 @@
+.custom-counter {
+    counter-reset: section;
+}
+
+.custom-counter li::before {
+    counter-increment: step-counter;
+    content: counter(step-counter);
+}

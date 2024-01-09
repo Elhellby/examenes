@@ -1,0 +1,3 @@
+export const PRIME_NUMBER = "PRIME_NUMBER";
+export const MULTIPLE_THREE = "MULTIPLE_THREE";
+

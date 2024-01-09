@@ -1,0 +1,80 @@
+﻿<!-- page title -->
+<section class="page-title">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact</h2>
+                <ul class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- page title -->
+
+
+<section class="section-padding">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="section-title-wrapper text-center">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-sub">Fill This Out So We Can Learn More About You &amp; Your Needs.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+        <form name="contact-form" id="contactForm" class="contact-form" action="sendemail.php" method="POST">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="sr-only" for="name">Name</label>
+                        <input id="name" type="text" name="name" class="form-control" placeholder="Your Name">
+                    </div>
+
+                </div>
+                <!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="sr-only" for="email">Email</label>
+                        <input id="email" type="email" name="email" class="form-control" placeholder="Your Email">
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="sr-only" for="subject">Subject</label>
+                        <input id="subject" type="text" name="subject" class="form-control" placeholder="Subject">
+                    </div>
+                </div>
+                <!-- /.col-md-4 -->
+
+            </div>
+            <!-- /.row -->
+
+            <div class="form-group">
+                <label class="sr-only" for="message">Message</label>
+                <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+            </div>
+
+            <div class="text-right">
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+
+
+<!-- map-section -->
+<section id="myMap" class="map-section no-vertical-lines"></section>
+<!-- /.map-section -->

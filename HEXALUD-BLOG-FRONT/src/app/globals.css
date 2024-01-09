@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+
+html {
+    scrollbar-color: gray lightgray;
+    scrollbar-width: thin;
+
+    background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,252,1) 0%, rgba(88,240,238,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,252,1) 0%, rgba(88,240,238,1) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,252,1) 0%, rgba(88,240,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#58f0ee",GradientType=1);
+}
+
+body {
+    overflow: auto;
+    scrollbar-face-color: gray;
+    scrollbar-shadow-color: lightgray;
+    scrollbar-highlight-color: lightgray;
+    scrollbar-3dlight-color: lightgray;
+    scrollbar-darkshadow-color: lightgray;
+    scrollbar-track-color: lightgray;
+    
+}
+
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+}
